@@ -37,6 +37,14 @@ footer {
   width: 50%;
 }
 
+.midnightblue {
+  color: midnightblue;
+}
+
+.card-title {
+  color: maroon;
+}
+
 @media (max-width: 680px) {
   .main {
     display:inline-block;
