@@ -49,15 +49,30 @@ footer {
   .main {
     display:inline-block;
   }
-  h2 p {
-    font: 3.5rem;
+  h1 {
+    font:2rem
   }
   .logo {
     width: 100px;
   }
   .card {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 10px;
+  }
+  .card-title {
+    text-align: center;
+    width: 100%;
+  }
+  .card-text {
+    text-align: center;
+    margin: auto ;
+  }
+  .tile-image {
+    float: none;
+    width: 273px;
+    height:200px;
+    margin: 0 auto;
   }
 }
