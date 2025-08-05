@@ -22,7 +22,14 @@ footer {
 .tile-image {
   height: 200px;
   float: left;
-  margin-right: 25px;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+  background-color: grey;
+  color: white;
+  margin: 10px;
 }
 
 .left {
@@ -31,13 +38,6 @@ footer {
 
 .right {
   float: right;
-}
-
-.card {
-  width: 45%;
-  background-color: grey;
-  color: white;
-  margin: 10px;
 }
 
 .creative {
@@ -49,33 +49,29 @@ footer {
 }
 
 @media (max-width: 680px) {
-  .main {
-    display:inline-block;
-  }
-  h1 {
-    font:2rem
-  }
   .logo {
     width: 100px;
   }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
   .card {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-  }
-  .card-title {
-    text-align: center;
-    width: 100%;
-  }
-  .card-text {
-    text-align: center;
-    margin: auto ;
-  }
-  .tile-image {
+    display: block;
+    margin-bottom: 30px;
     float: none;
-    width: 273px;
-    height:200px;
-    margin: 0 auto;
+    background-color: white;
+    color: #000;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
   }
 }
