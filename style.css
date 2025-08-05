@@ -34,15 +34,18 @@ footer {
 }
 
 .card {
-  width: 50%;
+  width: 45%;
+  background-color: grey;
+  color: white;
+  margin: 10px;
 }
 
-.midnightblue {
-  color: midnightblue;
+.creative {
+  color: #34699A;
 }
 
 .card-title {
-  color: maroon;
+  color: #58A0C8;
 }
 
 @media (max-width: 680px) {
